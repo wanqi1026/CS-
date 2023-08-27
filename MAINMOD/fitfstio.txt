@@ -1,0 +1,898 @@
+Debug for fit_fastio_pin_reassign program (iteration 1):
+
+I/O delay matrix:-
+
+	Comb	Reg 	SU  	Pin 	Cout	Casc
+Clk 	N/A	21	N/A	32	N/A	N/A
+Clr 	N/A	21	N/A	32	N/A	N/A
+Pre 	N/A	19	N/A	30	N/A	N/A
+Ena 	N/A	N/A	12	N/A	N/A	N/A
+Ald 	N/A	19	N/A	30	N/A	N/A
+OE  	N/A	N/A	N/A	30	N/A	N/A
+Cin 	N/A	N/A	N/A	N/A	N/A	N/A
+Casc	N/A	N/A	N/A	N/A	N/A	N/A
+Pin 	8	N/A	51	N/A	N/A	N/A
+A   	N/A	N/A	9	19	N/A	N/A
+B   	N/A	N/A	N/A	N/A	N/A	N/A
+C   	N/A	N/A	N/A	N/A	N/A	N/A
+D   	N/A	N/A	N/A	N/A	N/A	N/A
+
+Global clock delay matrix:-
+
+	Comb	Reg 	SU  	Pin 	Cout	Casc
+Clk :	N/A	3	15	N/A	7	N/A
+Clr :	N/A	8	N/A	N/A	12	N/A
+Pre :	N/A	8	N/A	N/A	12	N/A
+Ena :	N/A	N/A	10	N/A	N/A	N/A
+Ald :	N/A	8	N/A	N/A	12	N/A
+OE  :	N/A	N/A	N/A	N/A	N/A	N/A
+Cin :	9	N/A	9	N/A	1	11
+Casc:	4	N/A	4	N/A	N/A	6
+Pin :	N/A	N/A	N/A	N/A	N/A	N/A
+A   :	11	N/A	11	N/A	4	13
+B   :	10	N/A	10	N/A	4	12
+C   :	10	N/A	10	N/A	N/A	12
+D   :	8	N/A	8	N/A	N/A	10
+
+I/O delay matrix:-
+
+	Comb	Reg 	SU  	Pin 	Cout	Casc
+Clk 	N/A	21	N/A	32	N/A	N/A
+Clr 	N/A	21	N/A	32	N/A	N/A
+Pre 	N/A	19	N/A	30	N/A	N/A
+Ena 	N/A	N/A	12	N/A	N/A	N/A
+Ald 	N/A	19	N/A	30	N/A	N/A
+OE  	N/A	N/A	N/A	30	N/A	N/A
+Cin 	N/A	N/A	N/A	N/A	N/A	N/A
+Casc	N/A	N/A	N/A	N/A	N/A	N/A
+Pin 	8	N/A	51	N/A	N/A	N/A
+A   	N/A	N/A	9	19	N/A	N/A
+B   	N/A	N/A	N/A	N/A	N/A	N/A
+C   	N/A	N/A	N/A	N/A	N/A	N/A
+D   	N/A	N/A	N/A	N/A	N/A	N/A
+
+Global clock delay matrix:-
+
+	Comb	Reg 	SU  	Pin 	Cout	Casc
+Clk :	N/A	3	15	N/A	7	N/A
+Clr :	N/A	8	N/A	N/A	12	N/A
+Pre :	N/A	8	N/A	N/A	12	N/A
+Ena :	N/A	N/A	10	N/A	N/A	N/A
+Ald :	N/A	8	N/A	N/A	12	N/A
+OE  :	N/A	N/A	N/A	N/A	N/A	N/A
+Cin :	9	N/A	9	N/A	1	11
+Casc:	4	N/A	4	N/A	N/A	6
+Pin :	N/A	N/A	N/A	N/A	N/A	N/A
+A   :	11	N/A	11	N/A	4	13
+B   :	10	N/A	10	N/A	4	12
+C   :	10	N/A	10	N/A	N/A	12
+D   :	8	N/A	8	N/A	N/A	10
+
+Threshold are: for Tsu - 3.800000ns and for Tco - 7.900000ns
+Global Tsu=-1(-1.000000), Tco=-1(-1.000000)
+
+
+Input/output cells:
+	CLK -> 39 : IN
+	CLR -> 40 : IN
+	INBUS0 : IN
+	INBUS1 : IN
+	INBUS2 : IN
+	INBUS3 : IN
+	INBUS4 : IN
+	INBUS5 : IN
+	INBUS6 : IN
+	INBUS7 : IN
+	OUTBUS0 : OUT
+	OUTBUS1 : OUT
+	OUTBUS2 : OUT
+	OUTBUS3 : OUT
+	OUTBUS4 : OUT
+	OUTBUS5 : OUT
+	OUTBUS6 : OUT
+	OUTBUS7 : OUT
+
+Set clique dont_touch:
+
+Cell: |ALU:12|LPM_ADD_SUB:630|addcore:adder|pcarry0, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |ALU:12|LPM_ADD_SUB:630|addcore:adder|pcarry1, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |ALU:12|LPM_ADD_SUB:630|addcore:adder|pcarry2, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |ALU:12|LPM_ADD_SUB:630|addcore:adder|pcarry3, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |ALU:12|LPM_ADD_SUB:630|addcore:adder|pcarry4, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |ALU:12|LPM_ADD_SUB:630|addcore:adder|pcarry5, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |ALU:12|LPM_ADD_SUB:630|addcore:adder|pcarry6, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |ALU:12|LPM_ADD_SUB:877|addcore:adder|:79, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |ALU:12|LPM_ADD_SUB:877|addcore:adder|:83, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |ALU:12|LPM_ADD_SUB:877|addcore:adder|:91, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |ALU:12|LPM_ADD_SUB:877|addcore:adder|:95, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |ALU:12|LPM_ADD_SUB:1123|addcore:adder|pcarry2, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |ALU:12|LPM_ADD_SUB:1123|addcore:adder|pcarry3, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |ALU:12|LPM_ADD_SUB:1123|addcore:adder|pcarry5, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |ALU:12|LPM_ADD_SUB:1123|addcore:adder|pcarry6, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |ALU:12|LPM_ADD_SUB:1123|addcore:adder|:108, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |ALU:12|LPM_ADD_SUB:1123|addcore:adder|:111, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |ALU:12|LPM_ADD_SUB:1123|addcore:adder|:114, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |ALU:12|~218~1, rdfbits: 1050, fast_io bit: 0, periphery: 0,0
+Cell: |ALU:12|:218, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |ALU:12|:225, rdfbits: 200050, fast_io bit: 0, periphery: 0,0
+Cell: |ALU:12|:231, rdfbits: 200050, fast_io bit: 0, periphery: 0,0
+Cell: |ALU:12|:238, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |ALU:12|:655, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |ALU:12|:665, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |ALU:12|:666, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |ALU:12|:674, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |ALU:12|:680, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |ALU:12|:681, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |ALU:12|:689, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |ALU:12|:713, rdfbits: 200050, fast_io bit: 0, periphery: 0,0
+Cell: |ALU:12|:714, rdfbits: 200050, fast_io bit: 0, periphery: 0,0
+Cell: |ALU:12|:715, rdfbits: 200050, fast_io bit: 0, periphery: 0,0
+Cell: |ALU:12|:716, rdfbits: 200050, fast_io bit: 0, periphery: 0,0
+Cell: |ALU:12|:717, rdfbits: 200050, fast_io bit: 0, periphery: 0,0
+Cell: |ALU:12|:718, rdfbits: 200050, fast_io bit: 0, periphery: 0,0
+Cell: |ALU:12|:719, rdfbits: 200050, fast_io bit: 0, periphery: 0,0
+Cell: |ALU:12|:1334, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |ALU:12|~1351~1, rdfbits: 1050, fast_io bit: 0, periphery: 0,0
+Cell: |ALU:12|:1351, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |ALU:12|:1369, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |ALU:12|:1387, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |ALU:12|:1405, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |ALU:12|:1423, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |ALU:12|:1441, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |ALU:12|:1459, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |ALU:12|:1477, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |ALU:12|:1495, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |ALU:12|:1513, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |ALU:12|:1688, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |ALU:12|:1689, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |ALU:12|:1693, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |ALU:12|:1702, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |ALU:12|:1705, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |ALU:12|:1711, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |ALU:12|:1720, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |ALU:12|:1723, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |ALU:12|:1729, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |ALU:12|:1742, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |ALU:12|:1743, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |ALU:12|:1747, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |ALU:12|:1756, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |ALU:12|:1759, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |ALU:12|:1765, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |ALU:12|:1774, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |ALU:12|:1777, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |ALU:12|:1783, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |ALU:12|:1796, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |ALU:12|:1797, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |ALU:12|:1801, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |ALU:12|:1810, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |ALU:12|:1813, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |ALU:12|:1819, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |ALU:12|:1837, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |ALU:12|:1843, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |ALU:12|:1849, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |ALU:12|:1855, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |ALU:12|~1873~1, rdfbits: 1050, fast_io bit: 0, periphery: 0,0
+Cell: |ALU:12|~1873~2, rdfbits: 1050, fast_io bit: 0, periphery: 0,0
+Cell: |ALU:12|:1873, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |ALU:12|~1891~1, rdfbits: 1050, fast_io bit: 0, periphery: 0,0
+Cell: |ALU:12|~1891~2, rdfbits: 1050, fast_io bit: 0, periphery: 0,0
+Cell: |ALU:12|:1891, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |ALU:12|~1909~1, rdfbits: 1050, fast_io bit: 0, periphery: 0,0
+Cell: |ALU:12|~1909~2, rdfbits: 1050, fast_io bit: 0, periphery: 0,0
+Cell: |ALU:12|:1909, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |ALU:12|~1927~1, rdfbits: 1050, fast_io bit: 0, periphery: 0,0
+Cell: |ALU:12|~1927~2, rdfbits: 1050, fast_io bit: 0, periphery: 0,0
+Cell: |ALU:12|:1927, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |ALU:12|~1945~1, rdfbits: 1050, fast_io bit: 0, periphery: 0,0
+Cell: |ALU:12|~1945~2, rdfbits: 1050, fast_io bit: 0, periphery: 0,0
+Cell: |ALU:12|:1945, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |ALU:12|~1963~1, rdfbits: 1050, fast_io bit: 0, periphery: 0,0
+Cell: |ALU:12|~1963~2, rdfbits: 1050, fast_io bit: 0, periphery: 0,0
+Cell: |ALU:12|:1963, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |ALU:12|~1981~1, rdfbits: 1050, fast_io bit: 0, periphery: 0,0
+Cell: |ALU:12|~1981~2, rdfbits: 1050, fast_io bit: 0, periphery: 0,0
+Cell: |ALU:12|:1981, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |ALU:12|:1993, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |ALU:12|:1999, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |ALU:12|:2008, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |ALU:12|~2009~1, rdfbits: 1050, fast_io bit: 0, periphery: 0,0
+Cell: |ALU:12|~2009~2, rdfbits: 1050, fast_io bit: 0, periphery: 0,0
+Cell: |ALU:12|~2009~3, rdfbits: 1050, fast_io bit: 0, periphery: 0,0
+Cell: |ALU:12|:2011, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |ALU:12|~2015~1, rdfbits: 1050, fast_io bit: 0, periphery: 0,0
+Cell: |ALU:12|~2015~2, rdfbits: 1050, fast_io bit: 0, periphery: 0,0
+Cell: |ALU:12|~2015~3, rdfbits: 1050, fast_io bit: 0, periphery: 0,0
+Cell: |ALU:12|:2017, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: CLK, rdfbits: d, fast_io bit: 0, periphery: 0,0
+Cell: CLR, rdfbits: 4000005, fast_io bit: 0, periphery: 0,0
+Cell: |COUNTER:1|:3, rdfbits: 800110, fast_io bit: 0, periphery: 0,0
+Cell: |COUNTER:1|:5, rdfbits: 800110, fast_io bit: 0, periphery: 0,0
+Cell: |COUNTER:1|:7, rdfbits: 800110, fast_io bit: 0, periphery: 0,0
+Cell: |COUNTER:1|:9, rdfbits: 800110, fast_io bit: 0, periphery: 0,0
+Cell: |COUNTER:1|:10, rdfbits: 800110, fast_io bit: 0, periphery: 0,0
+Cell: |crom:2|aa:35|MMM:31|:5, rdfbits: 800210, fast_io bit: 0, periphery: 0,0
+Cell: |crom:2|aa:35|MMM:32|:5, rdfbits: 800210, fast_io bit: 0, periphery: 0,0
+Cell: |crom:2|aa:35|MMM:33|:5, rdfbits: 800210, fast_io bit: 0, periphery: 0,0
+Cell: |crom:2|aa:35|MMM:34|:5, rdfbits: 800210, fast_io bit: 0, periphery: 0,0
+Cell: |crom:2|aa:35|MMM:35|:5, rdfbits: 800210, fast_io bit: 0, periphery: 0,0
+Cell: |crom:2|aa:35|MMM:36|:5, rdfbits: 800210, fast_io bit: 0, periphery: 0,0
+Cell: |crom:2|ADDR:34|~33~1, rdfbits: 1050, fast_io bit: 0, periphery: 0,0
+Cell: |crom:2|ADDR:34|~39~1, rdfbits: 1050, fast_io bit: 0, periphery: 0,0
+Cell: |crom:2|ADDR:34|:39, rdfbits: 200050, fast_io bit: 0, periphery: 0,0
+Cell: |crom:2|ADDR:34|:50, rdfbits: 200050, fast_io bit: 0, periphery: 0,0
+Cell: |crom:2|ADDR:34|:55, rdfbits: 200050, fast_io bit: 0, periphery: 0,0
+Cell: |crom:2|ADDR:34|:60, rdfbits: 200050, fast_io bit: 0, periphery: 0,0
+Cell: |crom:2|ADDR:34|:65, rdfbits: 200050, fast_io bit: 0, periphery: 0,0
+Cell: |crom:2|ADDR:34|:70, rdfbits: 200050, fast_io bit: 0, periphery: 0,0
+Cell: |crom:2|CONTROM:39|~1807~1, rdfbits: 201050, fast_io bit: 0, periphery: 0,0
+Cell: |crom:2|CONTROM:39|:1807, rdfbits: 200050, fast_io bit: 0, periphery: 0,0
+Cell: |crom:2|CONTROM:39|~1823~1, rdfbits: 201050, fast_io bit: 0, periphery: 0,0
+Cell: |crom:2|CONTROM:39|~1839~1, rdfbits: 201050, fast_io bit: 0, periphery: 0,0
+Cell: |crom:2|CONTROM:39|~1855~1, rdfbits: 1050, fast_io bit: 0, periphery: 0,0
+Cell: |crom:2|CONTROM:39|:1855, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |crom:2|CONTROM:39|:1887, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |crom:2|CONTROM:39|:1903, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |crom:2|CONTROM:39|:1919, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |crom:2|CONTROM:39|:1935, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |crom:2|CONTROM:39|:2037, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |crom:2|CONTROM:39|~2048~1, rdfbits: 201050, fast_io bit: 0, periphery: 0,0
+Cell: |crom:2|CONTROM:39|:2124, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |crom:2|CONTROM:39|:2139, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |crom:2|CONTROM:39|~2141~1, rdfbits: 201050, fast_io bit: 0, periphery: 0,0
+Cell: |crom:2|CONTROM:39|~2141~2, rdfbits: 1050, fast_io bit: 0, periphery: 0,0
+Cell: |crom:2|CONTROM:39|:2181, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |crom:2|CONTROM:39|:2231, rdfbits: 200050, fast_io bit: 0, periphery: 0,0
+Cell: |crom:2|CONTROM:39|:2244, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |crom:2|CONTROM:39|:2340, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |crom:2|CONTROM:39|~2363~1, rdfbits: 1050, fast_io bit: 0, periphery: 0,0
+Cell: |crom:2|CONTROM:39|~2363~2, rdfbits: 1050, fast_io bit: 0, periphery: 0,0
+Cell: |crom:2|CONTROM:39|~2372~1, rdfbits: 1050, fast_io bit: 0, periphery: 0,0
+Cell: |crom:2|CONTROM:39|:2397, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |crom:2|CONTROM:39|~2417~1, rdfbits: 1050, fast_io bit: 0, periphery: 0,0
+Cell: |crom:2|CONTROM:39|~2847~1, rdfbits: 1050, fast_io bit: 0, periphery: 0,0
+Cell: |crom:2|CONTROM:39|~2847~2, rdfbits: 1050, fast_io bit: 0, periphery: 0,0
+Cell: |crom:2|CONTROM:39|~2847~3, rdfbits: 1050, fast_io bit: 0, periphery: 0,0
+Cell: |crom:2|CONTROM:39|~2847~4, rdfbits: 1050, fast_io bit: 0, periphery: 0,0
+Cell: |crom:2|CONTROM:39|:2847, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |crom:2|MCOMMAND:40|:46, rdfbits: 210, fast_io bit: 0, periphery: 0,0
+Cell: |crom:2|MCOMMAND:40|:47, rdfbits: 210, fast_io bit: 0, periphery: 0,0
+Cell: |crom:2|MCOMMAND:40|:49, rdfbits: 210, fast_io bit: 0, periphery: 0,0
+Cell: |crom:2|MCOMMAND:40|:50, rdfbits: 210, fast_io bit: 0, periphery: 0,0
+Cell: |crom:2|MCOMMAND:40|:51, rdfbits: 210, fast_io bit: 0, periphery: 0,0
+Cell: |crom:2|MCOMMAND:40|:52, rdfbits: 210, fast_io bit: 0, periphery: 0,0
+Cell: |crom:2|MCOMMAND:40|:53, rdfbits: 210, fast_io bit: 0, periphery: 0,0
+Cell: |crom:2|MCOMMAND:40|:54, rdfbits: 210, fast_io bit: 0, periphery: 0,0
+Cell: |crom:2|MCOMMAND:40|:55, rdfbits: 210, fast_io bit: 0, periphery: 0,0
+Cell: |crom:2|MCOMMAND:40|:56, rdfbits: 210, fast_io bit: 0, periphery: 0,0
+Cell: |crom:2|MCOMMAND:40|:58, rdfbits: 210, fast_io bit: 0, periphery: 0,0
+Cell: |crom:2|MCOMMAND:40|:61, rdfbits: 210, fast_io bit: 0, periphery: 0,0
+Cell: |crom:2|MCOMMAND:40|:62, rdfbits: 210, fast_io bit: 0, periphery: 0,0
+Cell: |crom:2|MCOMMAND:40|:63, rdfbits: 210, fast_io bit: 0, periphery: 0,0
+Cell: |crom:2|MCOMMAND:40|:65, rdfbits: 210, fast_io bit: 0, periphery: 0,0
+Cell: |crom:2|MCOMMAND:40|:66, rdfbits: 210, fast_io bit: 0, periphery: 0,0
+Cell: |crom:2|MCOMMAND:40|:1269, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |crom:2|MCOMMAND:40|:1319, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |crom:2|MCOMMAND:40|:1369, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |FEN2:25|:103, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |FEN2:25|:109, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |FEN2:25|:115, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |FEN2:25|:121, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |FEN2:25|:127, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |FEN2:25|:133, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |FEN2:25|:139, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |FEN2:25|:145, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |FEN2:25|:151, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |FEN2:25|:157, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |FEN2:25|:163, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |FEN2:25|:169, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |FEN2:25|:175, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |FEN2:25|:181, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |FEN2:25|:187, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |FEN2:25|:193, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: INBUS0, rdfbits: 5, fast_io bit: 0, periphery: 0,0
+Cell: INBUS1, rdfbits: 5, fast_io bit: 0, periphery: 0,0
+Cell: INBUS2, rdfbits: 5, fast_io bit: 0, periphery: 0,0
+Cell: INBUS3, rdfbits: 5, fast_io bit: 0, periphery: 0,0
+Cell: INBUS4, rdfbits: 5, fast_io bit: 0, periphery: 0,0
+Cell: INBUS5, rdfbits: 5, fast_io bit: 0, periphery: 0,0
+Cell: INBUS6, rdfbits: 5, fast_io bit: 0, periphery: 0,0
+Cell: INBUS7, rdfbits: 5, fast_io bit: 0, periphery: 0,0
+Cell: |IR:6|:18, rdfbits: 210, fast_io bit: 0, periphery: 0,0
+Cell: |IR:6|:20, rdfbits: 210, fast_io bit: 0, periphery: 0,0
+Cell: |IR:6|:22, rdfbits: 210, fast_io bit: 0, periphery: 0,0
+Cell: |IR:6|:24, rdfbits: 210, fast_io bit: 0, periphery: 0,0
+Cell: |IR:6|:26, rdfbits: 210, fast_io bit: 0, periphery: 0,0
+Cell: |IR:6|:28, rdfbits: 210, fast_io bit: 0, periphery: 0,0
+Cell: |IR:6|:30, rdfbits: 210, fast_io bit: 0, periphery: 0,0
+Cell: |IR:6|:32, rdfbits: 210, fast_io bit: 0, periphery: 0,0
+Cell: |IR:6|:40, rdfbits: 210, fast_io bit: 0, periphery: 0,0
+Cell: |IR:6|:42, rdfbits: 210, fast_io bit: 0, periphery: 0,0
+Cell: |IR:6|:44, rdfbits: 210, fast_io bit: 0, periphery: 0,0
+Cell: |IR:6|:46, rdfbits: 210, fast_io bit: 0, periphery: 0,0
+Cell: |IR:6|:48, rdfbits: 210, fast_io bit: 0, periphery: 0,0
+Cell: |MUX3_1:10|:234, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |MUX3_1:10|:240, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |MUX3_1:10|:246, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |MUX3_1:10|:252, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |MUX3_1:10|:258, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |MUX3_1:10|:264, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |MUX3_1:10|:270, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |MUX3_1:10|:276, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |MUX3_2:15|:262, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |MUX3_2:15|:274, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |MUX3_2:15|:286, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |MUX3_2:15|:298, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |MUX3_2:15|:310, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |MUX3_2:15|:330, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |MUX3_2:15|:336, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |MUX3_2:15|:342, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |MUX3_2:15|:348, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |MUX3_2:15|:354, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |MUX3_2:15|:360, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |MUX3_2:15|:366, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |MUX3_2:15|:372, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |MUX4_1:11|:246, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |MUX4_1:11|:248, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |MUX4_1:11|:252, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |MUX4_1:11|:261, rdfbits: 200050, fast_io bit: 0, periphery: 0,0
+Cell: |MUX4_1:11|:263, rdfbits: 200050, fast_io bit: 0, periphery: 0,0
+Cell: |MUX4_1:11|:264, rdfbits: 200050, fast_io bit: 0, periphery: 0,0
+Cell: |MUX4_1:11|:273, rdfbits: 200050, fast_io bit: 0, periphery: 0,0
+Cell: |MUX4_1:11|:275, rdfbits: 200050, fast_io bit: 0, periphery: 0,0
+Cell: |MUX4_1:11|:276, rdfbits: 200050, fast_io bit: 0, periphery: 0,0
+Cell: |MUX4_1:11|:285, rdfbits: 200050, fast_io bit: 0, periphery: 0,0
+Cell: |MUX4_1:11|:287, rdfbits: 200050, fast_io bit: 0, periphery: 0,0
+Cell: |MUX4_1:11|:288, rdfbits: 200050, fast_io bit: 0, periphery: 0,0
+Cell: |MUX4_1:11|:297, rdfbits: 200050, fast_io bit: 0, periphery: 0,0
+Cell: |MUX4_1:11|:299, rdfbits: 200050, fast_io bit: 0, periphery: 0,0
+Cell: |MUX4_1:11|:300, rdfbits: 200050, fast_io bit: 0, periphery: 0,0
+Cell: |MUX4_1:11|:309, rdfbits: 200050, fast_io bit: 0, periphery: 0,0
+Cell: |MUX4_1:11|:311, rdfbits: 200050, fast_io bit: 0, periphery: 0,0
+Cell: |MUX4_1:11|:312, rdfbits: 200050, fast_io bit: 0, periphery: 0,0
+Cell: |MUX4_1:11|:321, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |MUX4_1:11|:323, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |MUX4_1:11|:324, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |MUX4_1:11|:333, rdfbits: 200050, fast_io bit: 0, periphery: 0,0
+Cell: |MUX4_1:11|:335, rdfbits: 200050, fast_io bit: 0, periphery: 0,0
+Cell: |MUX4_1:11|:336, rdfbits: 200050, fast_io bit: 0, periphery: 0,0
+Cell: |MUX4_2:13|:246, rdfbits: 200050, fast_io bit: 0, periphery: 0,0
+Cell: |MUX4_2:13|:248, rdfbits: 200050, fast_io bit: 0, periphery: 0,0
+Cell: |MUX4_2:13|:252, rdfbits: 200050, fast_io bit: 0, periphery: 0,0
+Cell: |MUX4_2:13|:261, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |MUX4_2:13|:263, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |MUX4_2:13|:264, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |MUX4_2:13|:273, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |MUX4_2:13|:275, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |MUX4_2:13|:276, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |MUX4_2:13|:285, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |MUX4_2:13|:287, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |MUX4_2:13|:288, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |MUX4_2:13|:297, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |MUX4_2:13|:299, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |MUX4_2:13|:300, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |MUX4_2:13|:309, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |MUX4_2:13|:311, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |MUX4_2:13|:312, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |MUX4_2:13|:321, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |MUX4_2:13|:323, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |MUX4_2:13|:324, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |MUX4_2:13|:333, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |MUX4_2:13|:335, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |MUX4_2:13|:336, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: OUTBUS0, rdfbits: 3, fast_io bit: 0, periphery: 0,0
+Cell: OUTBUS1, rdfbits: 3, fast_io bit: 0, periphery: 0,0
+Cell: OUTBUS2, rdfbits: 3, fast_io bit: 0, periphery: 0,0
+Cell: OUTBUS3, rdfbits: 3, fast_io bit: 0, periphery: 0,0
+Cell: OUTBUS4, rdfbits: 3, fast_io bit: 0, periphery: 0,0
+Cell: OUTBUS5, rdfbits: 3, fast_io bit: 0, periphery: 0,0
+Cell: OUTBUS6, rdfbits: 3, fast_io bit: 0, periphery: 0,0
+Cell: OUTBUS7, rdfbits: 3, fast_io bit: 0, periphery: 0,0
+Cell: |PC:4|LPM_ADD_SUB:132|addcore:adder|:121, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |PC:4|LPM_ADD_SUB:132|addcore:adder|:125, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |PC:4|LPM_ADD_SUB:132|addcore:adder|:129, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |PC:4|LPM_ADD_SUB:132|addcore:adder|:133, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |PC:4|LPM_ADD_SUB:132|addcore:adder|:137, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |PC:4|LPM_ADD_SUB:132|addcore:adder|:141, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |PC:4|:20, rdfbits: 800210, fast_io bit: 0, periphery: 0,0
+Cell: |PC:4|:21, rdfbits: 800210, fast_io bit: 0, periphery: 0,0
+Cell: |PC:4|:22, rdfbits: 800210, fast_io bit: 0, periphery: 0,0
+Cell: |PC:4|:23, rdfbits: 800210, fast_io bit: 0, periphery: 0,0
+Cell: |PC:4|:24, rdfbits: 800210, fast_io bit: 0, periphery: 0,0
+Cell: |PC:4|:25, rdfbits: 800210, fast_io bit: 0, periphery: 0,0
+Cell: |PC:4|:26, rdfbits: 800210, fast_io bit: 0, periphery: 0,0
+Cell: |PC:4|:27, rdfbits: 800210, fast_io bit: 0, periphery: 0,0
+Cell: |PSW:14|:5, rdfbits: 210, fast_io bit: 0, periphery: 0,0
+Cell: |PSW:14|:7, rdfbits: 210, fast_io bit: 0, periphery: 0,0
+Cell: |PSW:14|:9, rdfbits: 210, fast_io bit: 0, periphery: 0,0
+Cell: |ROM:33|~141~1, rdfbits: 1050, fast_io bit: 0, periphery: 0,0
+Cell: |ROM:33|:141, rdfbits: 200050, fast_io bit: 0, periphery: 0,0
+Cell: |ROM:33|~152~1, rdfbits: 1050, fast_io bit: 0, periphery: 0,0
+Cell: |ROM:33|:152, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |ROM:33|:163, rdfbits: 200050, fast_io bit: 0, periphery: 0,0
+Cell: |ROM:33|~174~1, rdfbits: 1050, fast_io bit: 0, periphery: 0,0
+Cell: |ROM:33|:174, rdfbits: 200050, fast_io bit: 0, periphery: 0,0
+Cell: |ROM:33|:185, rdfbits: 200050, fast_io bit: 0, periphery: 0,0
+Cell: |ROM:33|:196, rdfbits: 200050, fast_io bit: 0, periphery: 0,0
+Cell: |ROM:33|~207~1, rdfbits: 1050, fast_io bit: 0, periphery: 0,0
+Cell: |ROM:33|:207, rdfbits: 200050, fast_io bit: 0, periphery: 0,0
+Cell: |ROM:33|:218, rdfbits: 200050, fast_io bit: 0, periphery: 0,0
+Cell: |ROM:33|:229, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |ROM:33|:240, rdfbits: 200050, fast_io bit: 0, periphery: 0,0
+Cell: |ROM:33|:251, rdfbits: 200050, fast_io bit: 0, periphery: 0,0
+Cell: |ROM:33|:262, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |ROM:33|:273, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |ROM:33|:284, rdfbits: 200050, fast_io bit: 0, periphery: 0,0
+Cell: |ROM:33|:295, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |ROM:33|~306~1, rdfbits: 201050, fast_io bit: 0, periphery: 0,0
+Cell: |ROM:33|:306, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |ROM:33|:317, rdfbits: 200050, fast_io bit: 0, periphery: 0,0
+Cell: |ROM:33|:328, rdfbits: 200050, fast_io bit: 0, periphery: 0,0
+Cell: |ROM:33|:339, rdfbits: 200050, fast_io bit: 0, periphery: 0,0
+Cell: |ROM:33|:361, rdfbits: 200050, fast_io bit: 0, periphery: 0,0
+Cell: |ROM:33|:383, rdfbits: 200050, fast_io bit: 0, periphery: 0,0
+Cell: |ROM:33|~394~1, rdfbits: 1050, fast_io bit: 0, periphery: 0,0
+Cell: |ROM:33|:394, rdfbits: 200050, fast_io bit: 0, periphery: 0,0
+Cell: |ROM:33|:405, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |ROM:33|:416, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |ROM:33|:427, rdfbits: 200050, fast_io bit: 0, periphery: 0,0
+Cell: |ROM:33|:438, rdfbits: 200050, fast_io bit: 0, periphery: 0,0
+Cell: |ROM:33|:449, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |ROM:33|:460, rdfbits: 200050, fast_io bit: 0, periphery: 0,0
+Cell: |ROM:33|:471, rdfbits: 200050, fast_io bit: 0, periphery: 0,0
+Cell: |ROM:33|:482, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |ROM:33|~493~1, rdfbits: 1050, fast_io bit: 0, periphery: 0,0
+Cell: |ROM:33|~493~2, rdfbits: 1050, fast_io bit: 0, periphery: 0,0
+Cell: |ROM:33|:493, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |ROM:33|:504, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |ROM:33|:515, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |ROM:33|:555, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |ROM:33|:593, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |ROM:33|:615, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |ROM:33|:641, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |ROM:33|:657, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |ROM:33|~659~1, rdfbits: 1050, fast_io bit: 0, periphery: 0,0
+Cell: |ROM:33|~701~1, rdfbits: 201050, fast_io bit: 0, periphery: 0,0
+Cell: |ROM:33|~701~2, rdfbits: 1050, fast_io bit: 0, periphery: 0,0
+Cell: |ROM:33|:713, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |ROM:33|~731~1, rdfbits: 1050, fast_io bit: 0, periphery: 0,0
+Cell: |ROM:33|:761, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |ROM:33|~791~1, rdfbits: 1050, fast_io bit: 0, periphery: 0,0
+Cell: |ROM:33|~791~2, rdfbits: 1050, fast_io bit: 0, periphery: 0,0
+Cell: |ROM:33|:791, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |ROM:33|:798, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |ROM:33|:813, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |ROM:33|:855, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |ROM:33|:867, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |ROM:33|~882~1, rdfbits: 1050, fast_io bit: 0, periphery: 0,0
+Cell: |ROM:33|~882~2, rdfbits: 1050, fast_io bit: 0, periphery: 0,0
+Cell: |ROM:33|:890, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |ROM:33|:908, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |ROM:33|~915~1, rdfbits: 1050, fast_io bit: 0, periphery: 0,0
+Cell: |ROM:33|:927, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |ROM:33|:939, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |ROM:33|:977, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |ROM:33|:978, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |ROM:33|:987, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |ROM:33|:1007, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |ROM:33|:1016, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |ROM:33|:1025, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |ROM:33|:1037, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |ROM:33|:1049, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |ROM:33|:1127, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |ROM:33|~1163~1, rdfbits: 1050, fast_io bit: 0, periphery: 0,0
+Cell: |ROM:33|~1163~2, rdfbits: 1050, fast_io bit: 0, periphery: 0,0
+Cell: |ROM:33|~1217~1, rdfbits: 1050, fast_io bit: 0, periphery: 0,0
+Cell: |ROM:33|~1217~2, rdfbits: 1050, fast_io bit: 0, periphery: 0,0
+Cell: |ROM:33|:1217, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |ROM:33|:1224, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |ROM:33|~1265~1, rdfbits: 1050, fast_io bit: 0, periphery: 0,0
+Cell: |ROM:33|~1265~2, rdfbits: 1050, fast_io bit: 0, periphery: 0,0
+Cell: |ROM:33|:1284, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |ROM:33|~1304~1, rdfbits: 1050, fast_io bit: 0, periphery: 0,0
+Cell: |ROM:33|:1305, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |ROM:33|:1322, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |ROM:33|~1326~1, rdfbits: 201050, fast_io bit: 0, periphery: 0,0
+Cell: |ROM:33|:1334, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |ROM:33|:1350, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |ROM:33|~1364~1, rdfbits: 1050, fast_io bit: 0, periphery: 0,0
+Cell: |ROM:33|:1401, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |ROM:33|~1412~1, rdfbits: 1050, fast_io bit: 0, periphery: 0,0
+Cell: |ROM:33|~1413~1, rdfbits: 1050, fast_io bit: 0, periphery: 0,0
+Cell: |ROM:33|~1442~1, rdfbits: 1050, fast_io bit: 0, periphery: 0,0
+Cell: |ROM:33|~1442~2, rdfbits: 1050, fast_io bit: 0, periphery: 0,0
+Cell: |ROM:33|~1443~1, rdfbits: 1050, fast_io bit: 0, periphery: 0,0
+Cell: |ROM:33|:1451, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |ROM:33|~1452~1, rdfbits: 1050, fast_io bit: 0, periphery: 0,0
+Cell: |ROM:33|:1461, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |ROM:33|~1463~1, rdfbits: 1050, fast_io bit: 0, periphery: 0,0
+Cell: |ROM:33|~1484~1, rdfbits: 1050, fast_io bit: 0, periphery: 0,0
+Cell: |ROM:33|~1484~2, rdfbits: 1050, fast_io bit: 0, periphery: 0,0
+Cell: |ROM:33|:1818, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |ROM:33|:1869, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |ROM:33|~1871~1, rdfbits: 1050, fast_io bit: 0, periphery: 0,0
+Cell: |ROM:33|~1871~2, rdfbits: 1050, fast_io bit: 0, periphery: 0,0
+Cell: |ROM:33|~1871~3, rdfbits: 1050, fast_io bit: 0, periphery: 0,0
+Cell: |ROM:33|~1919~1, rdfbits: 201050, fast_io bit: 0, periphery: 0,0
+Cell: |ROM:33|~1919~2, rdfbits: 1050, fast_io bit: 0, periphery: 0,0
+Cell: |ROM:33|~1949~1, rdfbits: 1050, fast_io bit: 0, periphery: 0,0
+Cell: |ROM:33|:1949, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |ROM:33|:1953, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |ROM:33|:1965, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |ROM:33|~2015~1, rdfbits: 1050, fast_io bit: 0, periphery: 0,0
+Cell: |ROM:33|~2015~2, rdfbits: 1050, fast_io bit: 0, periphery: 0,0
+Cell: |ROM:33|~2015~3, rdfbits: 1050, fast_io bit: 0, periphery: 0,0
+Cell: |ROM:33|~2015~4, rdfbits: 1050, fast_io bit: 0, periphery: 0,0
+Cell: |ROM:33|~2027~1, rdfbits: 1050, fast_io bit: 0, periphery: 0,0
+Cell: |ROM:33|:2085, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |ROM:33|~2135~1, rdfbits: 201050, fast_io bit: 0, periphery: 0,0
+Cell: |ROM:33|~2135~2, rdfbits: 1050, fast_io bit: 0, periphery: 0,0
+Cell: |ROM:33|:2169, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |ROM:33|~2171~1, rdfbits: 1050, fast_io bit: 0, periphery: 0,0
+Cell: |ROM:33|~2171~2, rdfbits: 1050, fast_io bit: 0, periphery: 0,0
+Cell: |ROM:33|:2181, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |ROM:33|:2310, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |ROM:33|~2330~1, rdfbits: 1050, fast_io bit: 0, periphery: 0,0
+Cell: |R0:16|:10, rdfbits: 210, fast_io bit: 0, periphery: 0,0
+Cell: |R0:16|:12, rdfbits: 210, fast_io bit: 0, periphery: 0,0
+Cell: |R0:16|:14, rdfbits: 210, fast_io bit: 0, periphery: 0,0
+Cell: |R0:16|:16, rdfbits: 210, fast_io bit: 0, periphery: 0,0
+Cell: |R0:16|:18, rdfbits: 210, fast_io bit: 0, periphery: 0,0
+Cell: |R0:16|:20, rdfbits: 210, fast_io bit: 0, periphery: 0,0
+Cell: |R0:16|:22, rdfbits: 210, fast_io bit: 0, periphery: 0,0
+Cell: |R0:16|:24, rdfbits: 210, fast_io bit: 0, periphery: 0,0
+Cell: |R1:17|:10, rdfbits: 210, fast_io bit: 0, periphery: 0,0
+Cell: |R1:17|:12, rdfbits: 210, fast_io bit: 0, periphery: 0,0
+Cell: |R1:17|:14, rdfbits: 210, fast_io bit: 0, periphery: 0,0
+Cell: |R1:17|:16, rdfbits: 210, fast_io bit: 0, periphery: 0,0
+Cell: |R1:17|:18, rdfbits: 210, fast_io bit: 0, periphery: 0,0
+Cell: |R1:17|:20, rdfbits: 210, fast_io bit: 0, periphery: 0,0
+Cell: |R1:17|:22, rdfbits: 210, fast_io bit: 0, periphery: 0,0
+Cell: |R1:17|:24, rdfbits: 210, fast_io bit: 0, periphery: 0,0
+Cell: |R2:27|:10, rdfbits: 210, fast_io bit: 0, periphery: 0,0
+Cell: |R2:27|:12, rdfbits: 210, fast_io bit: 0, periphery: 0,0
+Cell: |R2:27|:14, rdfbits: 210, fast_io bit: 0, periphery: 0,0
+Cell: |R2:27|:16, rdfbits: 210, fast_io bit: 0, periphery: 0,0
+Cell: |R2:27|:18, rdfbits: 210, fast_io bit: 0, periphery: 0,0
+Cell: |R2:27|:20, rdfbits: 210, fast_io bit: 0, periphery: 0,0
+Cell: |R2:27|:22, rdfbits: 210, fast_io bit: 0, periphery: 0,0
+Cell: |R2:27|:24, rdfbits: 210, fast_io bit: 0, periphery: 0,0
+Cell: |R3:28|:10, rdfbits: 210, fast_io bit: 0, periphery: 0,0
+Cell: |R3:28|:12, rdfbits: 210, fast_io bit: 0, periphery: 0,0
+Cell: |R3:28|:14, rdfbits: 210, fast_io bit: 0, periphery: 0,0
+Cell: |R3:28|:16, rdfbits: 210, fast_io bit: 0, periphery: 0,0
+Cell: |R3:28|:18, rdfbits: 210, fast_io bit: 0, periphery: 0,0
+Cell: |R3:28|:20, rdfbits: 210, fast_io bit: 0, periphery: 0,0
+Cell: |R3:28|:22, rdfbits: 210, fast_io bit: 0, periphery: 0,0
+Cell: |R3:28|:24, rdfbits: 210, fast_io bit: 0, periphery: 0,0
+Cell: :20, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: :21, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: :22, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: :23, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+
+
+Virtual pin individual set-up and clock-to-output times:
+For pin CLK delays are: tsu=-1, tco=-1;
+For pin CLR delays are: tsu=-1, tco=-1;
+For pin INBUS0 delays are: tsu=-1, tco=-1;
+For pin INBUS1 delays are: tsu=-1, tco=-1;
+For pin INBUS2 delays are: tsu=-1, tco=-1;
+For pin INBUS3 delays are: tsu=-1, tco=-1;
+For pin INBUS4 delays are: tsu=-1, tco=-1;
+For pin INBUS5 delays are: tsu=-1, tco=-1;
+For pin INBUS6 delays are: tsu=-1, tco=-1;
+For pin INBUS7 delays are: tsu=-1, tco=-1;
+For pin OUTBUS0 delays are: tsu=-1, tco=-1;
+For pin OUTBUS1 delays are: tsu=-1, tco=-1;
+For pin OUTBUS2 delays are: tsu=-1, tco=-1;
+For pin OUTBUS3 delays are: tsu=-1, tco=-1;
+For pin OUTBUS4 delays are: tsu=-1, tco=-1;
+For pin OUTBUS5 delays are: tsu=-1, tco=-1;
+For pin OUTBUS6 delays are: tsu=-1, tco=-1;
+For pin OUTBUS7 delays are: tsu=-1, tco=-1;
+
+
+Cells driven by pins
+	|MUX3_1:10|:276 is driven by INBUS0
+	|R0:16|:24 is driven by INBUS0
+	|R1:17|:24 is driven by INBUS0
+	|MUX3_1:10|:270 is driven by INBUS1
+	|R0:16|:22 is driven by INBUS1
+	|R1:17|:22 is driven by INBUS1
+	|MUX3_1:10|:264 is driven by INBUS2
+	|R0:16|:20 is driven by INBUS2
+	|R1:17|:20 is driven by INBUS2
+	|MUX3_1:10|:258 is driven by INBUS3
+	|R0:16|:18 is driven by INBUS3
+	|R1:17|:18 is driven by INBUS3
+	|MUX3_1:10|:252 is driven by INBUS4
+	|R0:16|:16 is driven by INBUS4
+	|R1:17|:16 is driven by INBUS4
+	|MUX3_1:10|:246 is driven by INBUS5
+	|R0:16|:14 is driven by INBUS5
+	|R1:17|:14 is driven by INBUS5
+	|R2:27|:14 is driven by INBUS5
+	|R3:28|:14 is driven by INBUS5
+	|MUX3_1:10|:240 is driven by INBUS6
+	|R0:16|:12 is driven by INBUS6
+	|R1:17|:12 is driven by INBUS6
+	|R2:27|:12 is driven by INBUS6
+	|R3:28|:12 is driven by INBUS6
+	|MUX3_1:10|:234 is driven by INBUS7
+	|R0:16|:10 is driven by INBUS7
+	|R1:17|:10 is driven by INBUS7
+	|R2:27|:10 is driven by INBUS7
+	|R3:28|:10 is driven by INBUS7
+
+
+Cells driving pins
+	|FEN2:25|:193 drives OUTBUS0
+	|FEN2:25|:187 drives OUTBUS1
+	|FEN2:25|:181 drives OUTBUS2
+	|FEN2:25|:175 drives OUTBUS3
+	|FEN2:25|:169 drives OUTBUS4
+	|FEN2:25|:163 drives OUTBUS5
+	|FEN2:25|:157 drives OUTBUS6
+	|FEN2:25|:151 drives OUTBUS7
+
+
+FAST I/O assignement after cleaning up:
+CLK: fast_io=0
+CLR: fast_io=0
+INBUS0: fast_io=0
+INBUS1: fast_io=0
+INBUS2: fast_io=0
+INBUS3: fast_io=0
+INBUS4: fast_io=0
+INBUS5: fast_io=0
+INBUS6: fast_io=0
+INBUS7: fast_io=0
+OUTBUS0: fast_io=0
+OUTBUS1: fast_io=0
+OUTBUS2: fast_io=0
+OUTBUS3: fast_io=0
+OUTBUS4: fast_io=0
+OUTBUS5: fast_io=0
+OUTBUS6: fast_io=0
+OUTBUS7: fast_io=0
+
+
+Layer-by-layer logic: fast_io=0
+
+Layer 0
+	CLK, RDF bits: d, lab#=0
+	CLR, RDF bits: 4000005, lab#=0
+	INBUS0, RDF bits: 5, lab#=0
+	INBUS1, RDF bits: 5, lab#=0
+	INBUS2, RDF bits: 5, lab#=0
+	INBUS3, RDF bits: 5, lab#=0
+	INBUS4, RDF bits: 5, lab#=0
+	INBUS5, RDF bits: 5, lab#=0
+	INBUS6, RDF bits: 5, lab#=0
+	INBUS7, RDF bits: 5, lab#=0
+	OUTBUS0, RDF bits: 3, lab#=0
+	OUTBUS1, RDF bits: 3, lab#=0
+	OUTBUS2, RDF bits: 3, lab#=0
+	OUTBUS3, RDF bits: 3, lab#=0
+	OUTBUS4, RDF bits: 3, lab#=0
+	OUTBUS5, RDF bits: 3, lab#=0
+	OUTBUS6, RDF bits: 3, lab#=0
+	OUTBUS7, RDF bits: 3, lab#=0
+
+Layer 1
+	|FEN2:25|:151, RDF bits: 50, lab#=0
+	|FEN2:25|:157, RDF bits: 50, lab#=0
+	|FEN2:25|:163, RDF bits: 50, lab#=0
+	|FEN2:25|:169, RDF bits: 50, lab#=0
+	|FEN2:25|:175, RDF bits: 50, lab#=0
+	|FEN2:25|:181, RDF bits: 50, lab#=0
+	|FEN2:25|:187, RDF bits: 50, lab#=0
+	|FEN2:25|:193, RDF bits: 50, lab#=0
+	|MUX3_1:10|:234, RDF bits: 50, lab#=0
+	|MUX3_1:10|:240, RDF bits: 50, lab#=0
+	|MUX3_1:10|:246, RDF bits: 50, lab#=0
+	|MUX3_1:10|:252, RDF bits: 50, lab#=0
+	|MUX3_1:10|:258, RDF bits: 50, lab#=0
+	|MUX3_1:10|:264, RDF bits: 50, lab#=0
+	|MUX3_1:10|:270, RDF bits: 50, lab#=0
+	|MUX3_1:10|:276, RDF bits: 50, lab#=0
+	|R0:16|:10, RDF bits: 210, lab#=0
+	|R0:16|:12, RDF bits: 210, lab#=0
+	|R0:16|:14, RDF bits: 210, lab#=0
+	|R0:16|:16, RDF bits: 210, lab#=0
+	|R0:16|:18, RDF bits: 210, lab#=0
+	|R0:16|:20, RDF bits: 210, lab#=0
+	|R0:16|:22, RDF bits: 210, lab#=0
+	|R0:16|:24, RDF bits: 210, lab#=0
+	|R1:17|:10, RDF bits: 210, lab#=0
+	|R1:17|:12, RDF bits: 210, lab#=0
+	|R1:17|:14, RDF bits: 210, lab#=0
+	|R1:17|:16, RDF bits: 210, lab#=0
+	|R1:17|:18, RDF bits: 210, lab#=0
+	|R1:17|:20, RDF bits: 210, lab#=0
+	|R1:17|:22, RDF bits: 210, lab#=0
+	|R1:17|:24, RDF bits: 210, lab#=0
+	|R2:27|:10, RDF bits: 210, lab#=0
+	|R2:27|:12, RDF bits: 210, lab#=0
+	|R2:27|:14, RDF bits: 210, lab#=0
+	|R3:28|:10, RDF bits: 210, lab#=0
+	|R3:28|:12, RDF bits: 210, lab#=0
+	|R3:28|:14, RDF bits: 210, lab#=0
+
+
+Physical pins available:
+row: 0, col: -1 RDF: 800003c7
+row: 0, col: -1 RDF: 800003c7
+row: 0, col: -1 RDF: 800003c7
+row: 0, col: -1 RDF: 800003c7
+row: 1, col: -1 RDF: 800003c7
+row: 1, col: -1 RDF: 800003c7
+row: 1, col: -1 RDF: 800003c7
+row: 1, col: -1 RDF: 800003c7
+row: 1, col: -1 RDF: 800003c7
+row: 2, col: -1 RDF: 800003c7
+row: 2, col: -1 RDF: 800003c7
+row: 2, col: -1 RDF: 800003c7
+row: 2, col: -1 RDF: 800003c7
+row: -1, col: 1 RDF: 800003c7
+row: -1, col: 5 RDF: 800003c7
+row: -1, col: 6 RDF: 800003c7
+row: -1, col: 8 RDF: 800003c7
+row: -1, col: 9 RDF: 800003c7
+row: -1, col: 10 RDF: 800003c7
+row: -1, col: 11 RDF: 800003c7
+row: -1, col: -1 RDF: 4601080d
+row: -1, col: -1 RDF: 4000d
+row: -1, col: -1 RDF: 4601080d
+row: -1, col: 13 RDF: 800003c7
+row: -1, col: 14 RDF: 800003c7
+row: -1, col: 15 RDF: 800003c7
+row: -1, col: 16 RDF: 800003c7
+row: -1, col: 17 RDF: 800003c7
+47.	29 (LOCK)	row: -1, col: 18 RDF: 800003c7
+row: -1, col: 19 RDF: 800003c7
+row: -1, col: 20 RDF: 800003c7
+row: -1, col: 22 RDF: 800003c7
+row: 2, col: -1 RDF: 800003c7
+row: 2, col: -1 RDF: 800003c7
+row: 2, col: -1 RDF: 800003c7
+row: 2, col: -1 RDF: 800003c7
+row: 2, col: -1 RDF: 800003c7
+row: 1, col: -1 RDF: 800003c7
+row: 1, col: -1 RDF: 800003c7
+row: 1, col: -1 RDF: 800003c7
+row: 1, col: -1 RDF: 800003c7
+66.	10 (INIT_DONE)	row: 0, col: -1 RDF: 800003c7
+row: 0, col: -1 RDF: 800003c7
+68.	8 (RDYnBUSY)	row: 0, col: -1 RDF: 800003c7
+row: 0, col: -1 RDF: 800003c7
+row: 0, col: -1 RDF: 800003c7
+71.	5 (CLKUSR)	row: 0, col: -1 RDF: 800003c7
+77.	99 (nCS)	row: -1, col: 23 RDF: 800003c7
+78.	98 (CS)	row: -1, col: 23 RDF: 800003c7
+79.	97 (nWS)	row: -1, col: 22 RDF: 800003c7
+80.	96 (nRS)	row: -1, col: 21 RDF: 800003c7
+row: -1, col: 18 RDF: 800003c7
+83.	93 (DEV_OE)	row: -1, col: 12 RDF: 800003c7
+row: -1, col: -1 RDF: 4601080d
+row: -1, col: -1 RDF: d
+row: -1, col: -1 RDF: 4601080d
+89.	87 (DEV_CLRn)	row: -1, col: 11 RDF: 800003c7
+row: -1, col: 8 RDF: 800003c7
+row: -1, col: 7 RDF: 800003c7
+92.	84 (DATA7)	row: -1, col: 4 RDF: 800003c7
+94.	82 (DATA6)	row: -1, col: 3 RDF: 800003c7
+95.	81 (DATA5)	row: -1, col: 2 RDF: 800003c7
+96.	80 (DATA4)	row: -1, col: 2 RDF: 800003c7
+97.	79 (DATA3)	row: -1, col: 1 RDF: 800003c7
+98.	78 (DATA2)	row: -1, col: 0 RDF: 800003c7
+99.	77 (DATA1)	row: -1, col: 0 RDF: 800003c7
+
+Sorted pins:
+
+Pin INBUS0: Link strength=176, fast_io=0, group No.=2
+Pin INBUS1: Link strength=176, fast_io=0, group No.=2
+Pin INBUS2: Link strength=176, fast_io=0, group No.=2
+Pin INBUS3: Link strength=176, fast_io=0, group No.=2
+Pin INBUS4: Link strength=176, fast_io=0, group No.=2
+Pin INBUS5: Link strength=176, fast_io=0, group No.=2
+Pin INBUS6: Link strength=176, fast_io=0, group No.=2
+Pin INBUS7: Link strength=176, fast_io=0, group No.=2
+Pin OUTBUS0: Link strength=176, fast_io=0, group No.=2
+Pin OUTBUS1: Link strength=176, fast_io=0, group No.=2
+Pin OUTBUS2: Link strength=176, fast_io=0, group No.=2
+Pin OUTBUS3: Link strength=176, fast_io=0, group No.=2
+Pin OUTBUS4: Link strength=176, fast_io=0, group No.=2
+Pin OUTBUS5: Link strength=176, fast_io=0, group No.=2
+Pin OUTBUS6: Link strength=176, fast_io=0, group No.=2
+Pin OUTBUS7: Link strength=176, fast_io=0, group No.=2
+Pin CLR: Link strength=0, fast_io=0, group No.=1
+Pin CLK: Link strength=0, fast_io=0, group No.=0
+
+Output pin initial assignments:
+
+Initially output pin OUTBUS0 is assigned to pin 71(index:5)
+Initially output pin OUTBUS1 is assigned to pin 70(index:6)
+Initially output pin OUTBUS2 is assigned to pin 69(index:7)
+Initially output pin OUTBUS3 is assigned to pin 68(index:8)
+Initially output pin OUTBUS4 is assigned to pin 65(index:11)
+Initially output pin OUTBUS5 is assigned to pin 64(index:12)
+Initially output pin OUTBUS6 is assigned to pin 63(index:13)
+Initially output pin OUTBUS7 is assigned to pin 62(index:14)
+
+All the rest pin assignments:
+
+Initially pin INBUS0 is assigned to pin 61(index:15, cost:4481)
+Initially pin INBUS1 is assigned to pin 58(index:18, cost:3201)
+Initially pin INBUS2 is assigned to pin 57(index:19, cost:4801)
+Initially pin INBUS3 is assigned to pin 56(index:20, cost:6401)
+Initially pin INBUS4 is assigned to pin 55(index:21, cost:8001)
+Initially pin INBUS5 is assigned to pin 50(index:26, cost:101441)
+Initially pin INBUS6 is assigned to pin 79(index:97, cost:101601)
+Initially pin INBUS7 is assigned to pin 49(index:27, cost:101601)
+Initially pin OUTBUS0 is assigned to pin 71(index:5, cost:9201)
+Initially pin OUTBUS1 is assigned to pin 70(index:6, cost:9201)
+Initially pin OUTBUS2 is assigned to pin 69(index:7, cost:9201)
+Initially pin OUTBUS3 is assigned to pin 68(index:8, cost:9201)
+Initially pin OUTBUS4 is assigned to pin 65(index:11, cost:9681)
+Initially pin OUTBUS5 is assigned to pin 64(index:12, cost:9681)
+Initially pin OUTBUS6 is assigned to pin 63(index:13, cost:9681)
+Initially pin OUTBUS7 is assigned to pin 62(index:14, cost:9681)
+Initially pin INBUS0 is assigned to pin 61(index:15, cost:7521)
+Initially pin INBUS1 is assigned to pin 58(index:18, cost:8481)
+Initially pin INBUS2 is assigned to pin 57(index:19, cost:8481)
+Initially pin INBUS3 is assigned to pin 56(index:20, cost:8481)
+Initially pin INBUS4 is assigned to pin 55(index:21, cost:8481)
+Initially pin INBUS5 is assigned to pin 50(index:26, cost:101681)
+Initially pin INBUS6 is assigned to pin 79(index:97, cost:101681)
+Initially pin INBUS7 is assigned to pin 49(index:27, cost:101601)
+Initially pin OUTBUS0 is assigned to pin 71(index:5, cost:9201)
+Initially pin OUTBUS1 is assigned to pin 70(index:6, cost:9201)
+Initially pin OUTBUS2 is assigned to pin 69(index:7, cost:9201)
+Initially pin OUTBUS3 is assigned to pin 68(index:8, cost:9201)
+Initially pin OUTBUS4 is assigned to pin 65(index:11, cost:9681)
+Initially pin OUTBUS5 is assigned to pin 64(index:12, cost:9681)
+Initially pin OUTBUS6 is assigned to pin 63(index:13, cost:9681)
+Initially pin OUTBUS7 is assigned to pin 62(index:14, cost:9681)
+Pin 61 is being cleared (used to be vpin INBUS0)
+Pin 58 is being cleared (used to be vpin INBUS1)
+Pin 57 is being cleared (used to be vpin INBUS2)
+Pin 56 is being cleared (used to be vpin INBUS3)
+Pin 55 is being cleared (used to be vpin INBUS4)
+Pin 50 is being cleared (used to be vpin INBUS5)
+Pin 79 is being cleared (used to be vpin INBUS6)
+Pin 49 is being cleared (used to be vpin INBUS7)
+Pin 71 is being cleared (used to be vpin OUTBUS0)
+Pin 70 is being cleared (used to be vpin OUTBUS1)
+Pin 69 is being cleared (used to be vpin OUTBUS2)
+Pin 68 is being cleared (used to be vpin OUTBUS3)
+Pin 65 is being cleared (used to be vpin OUTBUS4)
+Pin 64 is being cleared (used to be vpin OUTBUS5)
+Pin 63 is being cleared (used to be vpin OUTBUS6)
+Pin 62 is being cleared (used to be vpin OUTBUS7)
+
+
+Layer-by-layer logic: fast_io=1
+
+Layer 0
+	CLK, RDF bits: d, lab#=0
+	CLR, RDF bits: 4000005, lab#=0
+	INBUS0, RDF bits: 5, lab#=0
+	INBUS1, RDF bits: 5, lab#=0
+	INBUS2, RDF bits: 5, lab#=0
+	INBUS3, RDF bits: 5, lab#=0
+	INBUS4, RDF bits: 5, lab#=0
+	INBUS5, RDF bits: 5, lab#=0
+	INBUS6, RDF bits: 5, lab#=0
+	INBUS7, RDF bits: 5, lab#=0
+	OUTBUS0, RDF bits: 3, lab#=0
+	OUTBUS1, RDF bits: 3, lab#=0
+	OUTBUS2, RDF bits: 3, lab#=0
+	OUTBUS3, RDF bits: 3, lab#=0
+	OUTBUS4, RDF bits: 3, lab#=0
+	OUTBUS5, RDF bits: 3, lab#=0
+	OUTBUS6, RDF bits: 3, lab#=0
+	OUTBUS7, RDF bits: 3, lab#=0
+
+Layer 1
+
+Logic level 1 allocation.

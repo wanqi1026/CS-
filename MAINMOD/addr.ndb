@@ -1,0 +1,55 @@
+NDB006
+The number of symbol table entries is: 1
+The length of the symbol table is: 13
+
+Index Hierarchy Path
+----- --------------
+!	&null_hpath&
+
+The number of name info structs is : 43
+
+InsOrder BitField SymTableIndex NextSyn SynParent Loc ChainType NextChain ChainParent FanOut DirExp ParExp ShareExp NodeName
+-------- -------- ------------- ------- --------- --- --------- --------- ----------- ------ ------ ------ -------- --------
+"	IeEA	!	14	9	:28	"*
+#	IeEA	!	14	9	:29	"+
+$	IeEA	!	14	9	:30	",
+%	IeEA	!	14	9	:31	"-
+&	IeEA	!	14	9	:32	".
+'	IeEA	!	14	9	:33	"/
+(	IeEA	!	14	9	:34	"0
+)	IeEA	!	14	9	:35	"1
+*	L8f/	!	14	9	1	I	:36	"2
++	IeEA	!	14	9	:37	"3
+,	IeEA	!	15	9	:40	"6
+-	L8f/	!	15	9	1	H	:41	"7
+.	IeEA	!	15	9	:42	"8
+/	IeEA	!	16	9	:45	";
+0	L8f/	!	16	9	1	G	:46	"<
+1	IeEA	!	16	9	:47	"=
+2	IeEA	!	17	9	:50	"@
+3	L8f/	!	17	9	1	F	:51	"A
+4	IeEA	!	17	9	:52	"B
+5	IeEA	!	18	9	:55	"E
+6	L8f/	!	18	9	1	E	:56	"F
+7	IeEA	!	18	9	:57	"G
+8	IeEA	!	19	9	:60	"J
+9	L8f/	!	19	9	1	D	:61	"K
+:	IeEA	!	19	9	:62	"L
+;	L8ef	!	7	9	1	-	CF	q
+<	L8ef	!	6	9	1	9	I4	p
+=	L8ef	!	6	9	1	6	I5	o
+>	L8ef	!	6	9	1	3	I6	n
+?	L8ef	!	6	9	1	0	I7	m
+@	L8ef	!	7	9	1	*	OVF	t
+A	L8ef	!	7	9	4	0	3	6	9	P1	v
+B	L8ef	!	7	9	1	-	P2	w
+C	L8ef	!	7	9	1	*	P3	x
+D	IeE[	!	8	9	SE0	~
+E	IeE[	!	8	9	SE1	}
+F	IeE[	!	8	9	SE2	|
+G	IeE[	!	8	9	SE3	{
+H	IeE[	!	8	9	SE4	z
+I	IeE[	!	8	9	SE5	y
+J	L8ef	!	7	9	1	*	SF	s
+K	L8ef	!	7	9	6	*	-	0	3	6	9	T4	u
+L	IeEZ	!	7	9	ZF	r
